@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "اكتشف وتواصل",
+    "description": "منصة خرائط تفاعلية للتواصل والاكتشاف",
+    "cta": "ابدأ الآن"
+  },
+  "benefits": {
+    "visibility": {
+      "title": "تعزيز الظهور",
+      "description": "زد من ظهورك على الخريطة وكن في المقدمة"
+    },
+    "trust": {
+      "title": "بناء الثقة",
+      "description": "اكسب ثقة العملاء من خلال التقييمات والمراجعات"
+    },
+    "traffic": {
+      "title": "زيادة الزيارات",
+      "description": "استقطب المزيد من الزوار إلى موقعك"
+    },
+    "engagement": {
+      "title": "تفاعل العملاء",
+      "description": "تواصل مع عملائك وحسن تجربتهم"
+    }
+  },
+  "stats": {
+    "activeUsers": "مستخدم نشط",
+    "cities": "مدينة",
+    "satisfaction": "رضا العملاء"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "namePlaceholder": "الاسم",
+    "emailPlaceholder": "البريد الإلكتروني",
+    "messagePlaceholder": "رسالتك",
+    "submit": "إرسال"
+  }
+} 

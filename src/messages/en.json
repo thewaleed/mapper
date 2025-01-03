@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "Discover and Connect",
+    "description": "Interactive mapping platform for connection and discovery",
+    "cta": "Get Started"
+  },
+  "benefits": {
+    "visibility": {
+      "title": "Increased Visibility",
+      "description": "Boost your presence on the map and stay ahead"
+    },
+    "trust": {
+      "title": "Trust Building",
+      "description": "Build customer trust through reviews and ratings"
+    },
+    "traffic": {
+      "title": "Traffic Generation",
+      "description": "Drive more visitors to your location"
+    },
+    "engagement": {
+      "title": "Customer Engagement",
+      "description": "Connect with customers and improve their experience"
+    }
+  },
+  "stats": {
+    "activeUsers": "Active Users",
+    "cities": "Cities",
+    "satisfaction": "Customer Satisfaction"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Your Message",
+    "submit": "Submit"
+  }
+} 

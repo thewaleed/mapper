@@ -3,19 +3,86 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colors */
+  --primary-blue: #4285F4;
+  --success-green: #34A853;
+  --warning-yellow: #FBBC05;
+  --text-dark: #202124;
+  --bg-light: #F8F9FA;
+  --white: #FFFFFF;
+
+  /* Shadows */
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions */
+  --transition-base: 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  /* Typography */
+  h1 {
+    @apply text-5xl font-bold leading-tight;
+    font-family: 'Inter', 'SF Pro Display', 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  h2 {
+    @apply text-4xl font-bold leading-tight;
+    font-family: 'Inter', 'SF Pro Display', 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold leading-tight;
+    font-family: 'Inter', 'SF Pro Display', 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  body {
+    @apply text-base leading-relaxed;
+    font-family: 'Inter', 'SF Pro Text', 'IBM Plex Sans Arabic', sans-serif;
+    color: var(--text-dark);
+    background: var(--white);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .card {
+    @apply bg-white rounded-xl p-6 transition-all duration-300;
+    box-shadow: var(--card-shadow);
+  }
+
+  .card:hover {
+    @apply transform -translate-y-1;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-primary {
+    @apply px-8 py-4 rounded-lg bg-[#4285F4] text-white font-medium 
+    transition-all duration-300 hover:bg-[#3367d6] hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 rounded-lg bg-white text-[#4285F4] font-medium 
+    border-2 border-[#4285F4] transition-all duration-300 
+    hover:bg-[#4285F4] hover:text-white;
+  }
+}
+
+/* RTL Support */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
 }

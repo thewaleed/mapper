@@ -7,4 +7,4 @@ const config = {
   reactStrictMode: true,
 };
 
-export default withNextIntl(config);
+export default withNextIntl(config); 

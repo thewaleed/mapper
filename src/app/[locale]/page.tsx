@@ -6,7 +6,7 @@ import StatsSection from '@/components/StatsSection';
 import BenefitsCard from '@/components/BenefitsCard';
 import ContactForm from '@/components/ContactForm';
 
-export default function Home() {
+export default function LocalePage() {
   const t = useTranslations();
   const locale = useLocale();
   const isRTL = locale === 'ar';
@@ -43,11 +43,25 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <BenefitsCard
-              icon={<Users />}
+              icon={<Users className="w-8 h-8" />}
               title={t('benefits.visibility.title')}
               description={t('benefits.visibility.description')}
             />
-            {/* ... other benefit cards ... */}
+            <BenefitsCard
+              icon={<Star className="w-8 h-8" />}
+              title={t('benefits.trust.title')}
+              description={t('benefits.trust.description')}
+            />
+            <BenefitsCard
+              icon={<TrendingUp className="w-8 h-8" />}
+              title={t('benefits.traffic.title')}
+              description={t('benefits.traffic.description')}
+            />
+            <BenefitsCard
+              icon={<MessageCircle className="w-8 h-8" />}
+              title={t('benefits.engagement.title')}
+              description={t('benefits.engagement.description')}
+            />
           </div>
         </div>
       </section>
@@ -59,4 +73,4 @@ export default function Home() {
       <ContactForm />
     </div>
   );
-}
+} 
