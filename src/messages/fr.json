@@ -30,7 +30,7 @@
   "contact": {
     "title": "Contactez-nous",
     "namePlaceholder": "Nom",
-    "emailPlaceholder": "Email",
+    "PhonePlaceholder": "téléphone",
     "messagePlaceholder": "Votre Message",
     "submit": "Envoyer"
   }

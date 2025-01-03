@@ -30,7 +30,7 @@
   "contact": {
     "title": "اتصل بنا",
     "namePlaceholder": "الاسم",
-    "emailPlaceholder": "البريد الإلكتروني",
+    "PhonePlaceholder": "رقم الهاتف",
     "messagePlaceholder": "رسالتك",
     "submit": "إرسال"
   }
