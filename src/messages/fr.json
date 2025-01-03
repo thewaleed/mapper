@@ -1,37 +1,37 @@
 {
   "hero": {
-    "title": "Découvrir et Connecter",
-    "description": "Plateforme de cartographie interactive pour la connexion et la découverte",
+    "title": "Démarquez-vous sur Google Maps",
+    "description": "Transformez les personnes qui vous trouvent sur Google Search et Maps en nouveaux clients avec un profil d'entreprise gratuit",
     "cta": "Commencer"
   },
   "benefits": {
     "visibility": {
-      "title": "Visibilité Accrue",
-      "description": "Augmentez votre présence sur la carte et restez en tête"
+      "title": "Profil Gratuit",
+      "description": "Créez et gérez votre profil d'entreprise gratuitement"
     },
     "trust": {
-      "title": "Construction de la Confiance",
-      "description": "Gagnez la confiance des clients grâce aux avis et évaluations"
+      "title": "Facile à Gérer",
+      "description": "Mettez à jour votre profil directement depuis Google"
     },
     "traffic": {
-      "title": "Génération de Trafic",
-      "description": "Attirez plus de visiteurs vers votre emplacement"
+      "title": "Connectez avec Clients",
+      "description": "Répondez aux avis, publiez des actualités et partagez des photos"
     },
     "engagement": {
-      "title": "Engagement Client",
-      "description": "Connectez-vous avec vos clients et améliorez leur expérience"
+      "title": "Suivez Performance",
+      "description": "Obtenez des statistiques sur les vues et les actions des clients"
     }
   },
   "stats": {
-    "activeUsers": "Utilisateurs Actifs",
-    "cities": "Villes",
+    "activeUsers": "Entreprises Actives",
+    "cities": "Villes Couvertes",
     "satisfaction": "Satisfaction Client"
   },
   "contact": {
-    "title": "Contactez-nous",
-    "namePlaceholder": "Nom",
-    "PhonePlaceholder": "téléphone",
-    "messagePlaceholder": "Votre Message",
-    "submit": "Envoyer"
+    "title": "Commencez Aujourd'hui",
+    "namePlaceholder": "Nom de l'entreprise",
+    "PhonePlaceholder": "Numéro de téléphone",
+    "messagePlaceholder": "Parlez-nous de votre entreprise",
+    "submit": "Créer un Profil"
   }
 } 

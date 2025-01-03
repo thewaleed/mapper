@@ -1,37 +1,37 @@
 {
   "hero": {
-    "title": "Discover and Connect",
-    "description": "Interactive mapping platform for connection and discovery",
+    "title": "Stand out on Google Maps",
+    "description": "Turn people who find you on Google Search and Maps into new customers with a free Business Profile for your storefront or service area",
     "cta": "Get Started"
   },
   "benefits": {
     "visibility": {
-      "title": "Increased Visibility",
-      "description": "Boost your presence on the map and stay ahead"
+      "title": "Free Business Profile",
+      "description": "Create and manage your Business Profile at no cost"
     },
     "trust": {
-      "title": "Trust Building",
-      "description": "Build customer trust through reviews and ratings"
+      "title": "Easy to Manage",
+      "description": "Update your profile directly from Google Search and Maps"
     },
     "traffic": {
-      "title": "Traffic Generation",
-      "description": "Drive more visitors to your location"
+      "title": "Connect with Customers",
+      "description": "Respond to reviews, post updates, and share photos"
     },
     "engagement": {
-      "title": "Customer Engagement",
-      "description": "Connect with customers and improve their experience"
+      "title": "Track Performance",
+      "description": "Get insights on views, searches, and customer actions"
     }
   },
   "stats": {
-    "activeUsers": "Active Users",
-    "cities": "Cities",
+    "activeUsers": "Active Businesses",
+    "cities": "Cities Covered",
     "satisfaction": "Customer Satisfaction"
   },
   "contact": {
-    "title": "Contact Us",
-    "namePlaceholder": "Name",
-    "PhonePlaceholder": "Phone",
-    "messagePlaceholder": "Your Message",
-    "submit": "Submit"
+    "title": "Get Started Today",
+    "namePlaceholder": "Business Name",
+    "PhonePlaceholder": "Phone Number",
+    "messagePlaceholder": "Tell us about your business",
+    "submit": "Create Profile"
   }
 } 
