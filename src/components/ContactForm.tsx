@@ -4,8 +4,6 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxu0orbXXX6J5AeWU_5azuGLPF30QlHDQ5IkG_JWNqlc6Zlb7EB_v_teZb57tCgBu_qUQ/exec'; // ضع رابط Google Apps Script هنا
-
 const ContactForm = () => {
   const t = useTranslations('contact');
   const [formData, setFormData] = useState({
@@ -31,7 +29,8 @@ const ContactForm = () => {
 
       setSubmitStatus('success');
       setFormData({ name: '', phone: '', message: '' });
-    } catch (error) {
+    } catch (err) {
+      console.error(err);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);

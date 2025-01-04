@@ -2,7 +2,7 @@ import { getRequestConfig } from 'next-intl/server';
 import { locales } from '../navigation';
 
 export default getRequestConfig(async ({ locale }) => {
-  if (!locales.includes(locale as any)) {
+  if (!locales.includes(locale)) {
     throw new Error('Invalid locale');
   }
 

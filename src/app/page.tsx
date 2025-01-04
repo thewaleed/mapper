@@ -3,6 +3,7 @@ import { LangSwitcher } from '@/components/LangSwitcher';
 import StatsSection from '@/components/StatsSection';
 import BenefitsCard from '@/components/BenefitsCard';
 import ContactForm from '@/components/ContactForm';
+import { MapPin, Users } from 'lucide-react';
 
 export default function Home() {
   const t = useTranslations();
