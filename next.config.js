@@ -3,8 +3,8 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
-const config = {
+const nextConfig = {
   reactStrictMode: true,
 };
 
-export default withNextIntl(config); 
+module.exports = nextConfig; 
