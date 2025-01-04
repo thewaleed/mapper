@@ -23,22 +23,15 @@ const ContactForm = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    const formDataObj = new FormData();
-    formDataObj.append('name', formData.name);
-    formDataObj.append('phone', formData.phone);
-    formDataObj.append('message', formData.message);
-
     try {
-      const response = await fetch(SHEET_URL, {
+      await fetch('/api/contact', {
         method: 'POST',
-        mode: 'no-cors',
-        body: formDataObj
+        body: JSON.stringify(formData),
       });
 
       setSubmitStatus('success');
       setFormData({ name: '', phone: '', message: '' });
     } catch (error) {
-      console.error('Error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
