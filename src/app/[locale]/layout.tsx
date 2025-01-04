@@ -23,7 +23,7 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  await initTranslations(locale);
+  const translations = await initTranslations(locale);
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>

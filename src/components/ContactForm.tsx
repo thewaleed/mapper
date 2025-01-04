@@ -16,11 +16,6 @@ const ContactForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.phone) return;
-
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
-
     try {
       await fetch('/api/contact', {
         method: 'POST',
