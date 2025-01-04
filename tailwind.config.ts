@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#ED7202",    // البرتقالي
+        secondary: "#FFCB2D",  // الأصفر الفاتح
+        accent: "#ED9602",     // البرتقالي الذهبي
+        warning: "#ED4902",    // البرتقالي الداكن
+        highlight: "#EDCF02",  // الأصفر
+        muted: "#EDB351",      // البيج
       },
     },
   },

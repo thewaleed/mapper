@@ -1,13 +1,13 @@
-export const locales = ['en', 'ar', 'fr'] as const;
-export const defaultLocale = 'fr' as const;
+export const locales = ["fr", "ar", "en"] as const;
+export const defaultLocale = "fr" as const;
 
 export function getLanguage(locale: string) {
   switch (locale) {
-    case 'ar':
-      return 'عربي';
-    case 'fr':
-      return 'Français';
+    case "ar":
+      return "عربي";
+    case "en":
+      return "English";
     default:
-      return 'English';
+      return "Français";
   }
-} 
+}

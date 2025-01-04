@@ -12,7 +12,7 @@ export default function Home() {
   const isRTL = locale === 'ar';
 
   return (
-    <div className={`min-h-screen ${isRTL ? 'rtl' : 'ltr'}`}>
+    <div className={`min-h-screen ${isRTL ? 'rtl' : 'ltr'}`} lang="fr">
       {/* Language Switcher */}
       <div className="fixed top-4 right-4">
         <LangSwitcher />

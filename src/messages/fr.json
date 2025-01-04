@@ -1,27 +1,27 @@
 {
   "hero": {
     "title": "Démarquez-vous sur Google Maps",
-    "description": "Transformez les personnes qui vous trouvent sur Google Search et Maps en nouveaux clients avec un profil d'entreprise gratuit",
+    "description": "Transformez les personnes qui vous trouvent sur Google Search et Maps en nouveaux clients avec un profil d'entreprise",
     "cta": "Commencer"
   },
-  "benefits": {
-    "visibility": {
-      "title": "Profil Gratuit",
-      "description": "Créez et gérez votre profil d'entreprise gratuitement"
+    "benefits": {
+      "visibility": {
+        "title": "Visibilité Locale Améliorée",
+        "description": "Apparaissez dans les résultats de recherche locaux lorsque des clients potentiels recherchent des entreprises comme la vôtre. Affichez-vous sur les cartes, facilitant ainsi la localisation de votre emplacement physique."
+      },
+      "trust": {
+        "title": "Informations Commerciales 24/7",
+        "description": "Fournissez un accès permanent à vos informations commerciales, y compris les heures d'ouverture, les coordonnées et les annonces spéciales."
+      },
+      "traffic": {
+        "title": "Promotion Commerciale Gratuite",
+        "description": "Obtenez un puissant outil marketing sans frais. Présentez vos horaires, coordonnées, photos et services sans payer de publicité."
+      },
+      "engagement": {
+        "title": "Avis Clients & Confiance",
+        "description": "Développez votre crédibilité grâce aux avis et évaluations des clients. Les avis positifs servent de preuve sociale et aident à attirer de nouveaux clients vers votre entreprise."
+      }
     },
-    "trust": {
-      "title": "Facile à Gérer",
-      "description": "Mettez à jour votre profil directement depuis Google"
-    },
-    "traffic": {
-      "title": "Connectez avec Clients",
-      "description": "Répondez aux avis, publiez des actualités et partagez des photos"
-    },
-    "engagement": {
-      "title": "Suivez Performance",
-      "description": "Obtenez des statistiques sur les vues et les actions des clients"
-    }
-  },
   "stats": {
     "activeUsers": "Entreprises Actives",
     "cities": "Villes Couvertes",
@@ -32,6 +32,6 @@
     "namePlaceholder": "Nom de l'entreprise",
     "PhonePlaceholder": "Numéro de téléphone",
     "messagePlaceholder": "Parlez-nous de votre entreprise",
-    "submit": "Créer un Profil"
+    "submit": "Envoyer"
   }
 } 

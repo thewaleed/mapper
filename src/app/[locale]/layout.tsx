@@ -3,9 +3,9 @@ import { notFound } from 'next/navigation';
 
 export function generateStaticParams() {
   return [
+    { locale: 'fr' },
     { locale: 'ar' },
-    { locale: 'en' },
-    { locale: 'fr' }
+    { locale: 'en' }
   ];
 }
 

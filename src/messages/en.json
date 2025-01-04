@@ -1,25 +1,25 @@
 {
   "hero": {
     "title": "Stand out on Google Maps",
-    "description": "Turn people who find you on Google Search and Maps into new customers with a free Business Profile for your storefront or service area",
+    "description": "Turn people who find you on Google Search and Maps into new customers with a Business Profile for your storefront or service area",
     "cta": "Get Started"
   },
   "benefits": {
     "visibility": {
-      "title": "Free Business Profile",
-      "description": "Create and manage your Business Profile at no cost"
+      "title": "Enhanced Local Visibility",
+      "description": "Appear in local search results when potential customers look for businesses like yours. Show up on maps, making it easy for people to find your physical location."
     },
     "trust": {
-      "title": "Easy to Manage",
-      "description": "Update your profile directly from Google Search and Maps"
+      "title": "24/7 Business Information",
+      "description": "Provide round-the-clock access to your business information including operating hours, contact details, and special announcements."
     },
     "traffic": {
-      "title": "Connect with Customers",
-      "description": "Respond to reviews, post updates, and share photos"
+      "title": "Free Business Promotion",
+      "description": "Get a powerful marketing tool at zero cost. Showcase your business hours, contact information, photos, and services without paying for advertising."
     },
     "engagement": {
-      "title": "Track Performance",
-      "description": "Get insights on views, searches, and customer actions"
+      "title": "Customer Reviews & Trust",
+      "description": "Build credibility through customer reviews and ratings. Positive reviews act as social proof and help attract new customers to your business."
     }
   },
   "stats": {
@@ -32,6 +32,6 @@
     "namePlaceholder": "Business Name",
     "PhonePlaceholder": "Phone Number",
     "messagePlaceholder": "Tell us about your business",
-    "submit": "Create Profile"
+    "submit": "Send"
   }
 } 

@@ -6,7 +6,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ar" suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <body suppressHydrationWarning>
         {children}
       </body>
@@ -16,5 +16,5 @@ export default function RootLayout({
 
 export const metadata = {
   title: 'Mapper',
-  description: 'Interactive mapping platform',
+  description: 'Plateforme de cartographie',
 };
