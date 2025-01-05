@@ -29,7 +29,7 @@ const ContactForm = () => {
     formDataObj.append('message', formData.message);
 
     try {
-      const response = await fetch(SHEET_URL, {
+      await fetch(SHEET_URL, {
         method: 'POST',
         mode: 'no-cors',
         body: formDataObj
