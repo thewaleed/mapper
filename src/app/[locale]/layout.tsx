@@ -5,7 +5,7 @@ import '../globals.css';
 
 type LayoutProps = {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export function generateStaticParams() {
@@ -16,7 +16,8 @@ export default async function LocaleLayout({
   children,
   params
 }: LayoutProps) {
-  const locale = params.locale as string;
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale as string;
   const messages = await import(`../../messages/${locale}.json`)
     .then(module => module.default)
     .catch(() => notFound());
