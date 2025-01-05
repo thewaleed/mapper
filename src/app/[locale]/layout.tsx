@@ -8,22 +8,23 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ 
-  children 
+  children,
+  params 
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const messages = await import(`../../messages/${defaultLocale}.json`)
+  const messages = await import(`../../messages/${params.locale}.json`)
     .then(module => module.default)
     .catch(() => notFound());
 
   return (
-    <html lang={defaultLocale} suppressHydrationWarning>
+    <html lang={params.locale} suppressHydrationWarning>
       <body suppressHydrationWarning>
-        <NextIntlClientProvider messages={messages} locale={defaultLocale}>
+        <NextIntlClientProvider messages={messages} locale={params.locale}>
           {children}
         </NextIntlClientProvider>
       </body>
     </html>
   );
-} 
+}
