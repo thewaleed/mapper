@@ -1,6 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
+import type { ReactNode } from 'react';
 import '../globals.css';
+
+type LayoutProps = {
+  children: ReactNode;
+  params: { locale: string };
+};
 
 export function generateStaticParams() {
   return [{ locale: 'fr' }, { locale: 'ar' }, { locale: 'en' }];
@@ -8,11 +14,9 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+  params
+}: LayoutProps) {
+  const locale = params.locale as string;
   const messages = await import(`../../messages/${locale}.json`)
     .then(module => module.default)
     .catch(() => notFound());
