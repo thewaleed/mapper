@@ -8,8 +8,7 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ 
-  children, 
-  params 
+  children 
 }: {
   children: React.ReactNode;
   params: { locale: string };
