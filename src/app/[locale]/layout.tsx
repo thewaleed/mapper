@@ -1,7 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import '../globals.css';
-import { defaultLocale } from '@/navigation';
 
 export function generateStaticParams() {
   return [{ locale: 'fr' }, { locale: 'ar' }, { locale: 'en' }];
