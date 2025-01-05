@@ -1,7 +1,6 @@
-import Image from "next/image";
 import { useTranslations, useLocale } from 'next-intl';
 import { LangSwitcher } from '@/components/LangSwitcher';
-import { MapPin, Users, Star, TrendingUp, MessageCircle } from 'lucide-react';
+import { MapPin, Users} from 'lucide-react';
 import StatsSection from '@/components/StatsSection';
 import BenefitsCard from '@/components/BenefitsCard';
 import ContactForm from '@/components/ContactForm';

@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { LangSwitcher } from "@/components/LangSwitcher";
-import { MapPin, Users, Star, TrendingUp, MessageCircle } from "lucide-react";
+import { Users, Star, TrendingUp, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import StatsSection from "@/components/StatsSection";
 import BenefitsCard from "@/components/BenefitsCard";
